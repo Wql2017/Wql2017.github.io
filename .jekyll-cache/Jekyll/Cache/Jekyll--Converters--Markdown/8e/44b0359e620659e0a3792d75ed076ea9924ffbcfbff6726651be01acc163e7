@@ -1,0 +1,106 @@
+I"(<h1><center>Robocode</center></h1>
+<p>  </p>
+<h2><font color="green">什么是Robocode</font></h2>
+<p>Robocode是一款变成游戏，目的是编程人员编写坦克机器人，以便在竞技场中与其他机器人厮杀搏斗。所以，Robocode是Robot+code的缩写。虽然编程人员不会对游戏产生直接的影响，但是变成人员需要编写AI机器人，告诉机器人如何应对战斗。战斗是在屏幕上实时进行的</p>
+
+<p>Robocode的座右铭是：建造最好的，摧毁其余的</p>
+
+<p>除了作为编程游戏之外，Robocode还用于学习如何主要用Java语言编程</p>
+
+<p>Robocode提供了一个完整的开发环境，并配备了安装程序，内置机器人编辑器和Java编译器。Robocode还支持使用外部IDE开发机器人
+<ul>
+    <li><a href="https://www.jetbrains.com/idea/"><font color="green">Intellij IDEA</font></a></li>
+    <li><a href="https://www.eclipse.org/"><font color="green">Eclipse</font></a></li>
+    <li><a href="https://netbeans.apache.org/"><font color="green">NetBeans</font></a></li>
+    <li><a href="https://code.visualstudio.com/"><font color="green">Visual Studio Code</font></a></li>
+</ul>
+
+Robocode在Java平台上运行的事实使得它可以在大多数支持Java的操作系统上运行它，这意味着它将能够在Windows，Linux，macOS和其他UNIX变体上运行。请注意，Java 8 是 Robocode 要求的最低版本，但可以使用较新版本来运行 Robocode 和开发机器人。
+
+最让人兴奋的是，
+<font color="red" size="5">Robocode是一个开源项目</font>
+</p>
+
+<h2><font color="green">Robocode发展史</font></h2>
+
+<p>
+Robocode游戏最初是由Mathew A. Nelson在2000年底作为个人努力开始的，并在2001年7月以AlphaWorks下载的形式将其带到IBM工作时成为专业游戏。
+</p>
+
+<p>
+IBM对Robocode很感兴趣，因为他们看到了推广Robocode的机会，这是一种开始学习如何用Java编程的有趣方式，IBM也想推广Java。
+</p>
+
+<p>
+创建Robocode的灵感来自Robot Battle，这是一款由Brad Schick于1994年编写的编程游戏。《机器人大战》的灵感来自1980年代初的Apple II+游戏《RobotWar》。
+</p>
+
+<p>
+2005年初，Mathew说服IBM在SourceForge上以开源形式发布Robocode。在这一点上，Robocode的开发已经有些停止。围绕Robocode的社区开始开发他们自己的Robocode版本，其中包含错误修复和新功能，例如"开源Robocode的贡献"，以及后来由Flemming N. Larsen开发的两个项目RobocodeNG和Robocode 2006。
+</p>
+
+<p>
+最终，Flemming于2006年7月接替了Mathew在SourceForge的Robocode项目中担任管理员和开发人员，继续开发原始的Robocode游戏。因此，RobocodeNG项目被删除，Robocode 2006被合并到新的官方Robocode 1.1版游戏中，其中包含许多改进。从那时起，许多新版本的Robocode已经发布，其中包含越来越多的功能和社区贡献。
+</p>
+
+<p>
+2007 年 5 月，RoboRumble 客户端被内置到 Robocode 中。RoboRumble被Robocode社区广泛用于为1对1，近战，团队和双胞胎双重比赛创建最新的机器人排名列表。
+</p>
+
+<p>
+2012年，名为Julian（"Skilgannon"）的Robocode创建了LiteRumble，它旨在成为一个轻量级，易于部署的RoboRumble系统，旨在运行在Google App Engine上。
+</p>
+
+<p>
+2010年5月，使用.NET / Java桥为Robocode提供了一个.Net插件，除了在Java中开发机器人之外，还可以为.Net Framework 3.5版本开发机器人。此功能由Pavel Savara提供，他是Robocode的主要贡献者。
+</p>
+
+<p>
+2021年4月，.Net插件作为.Net Framework停产,使得构建和维护变得非常困难。
+</p>
+
+<h2><font color="green">系统要求</font></h2>
+
+<p>要运行Robocode，必须在系统上安装Java 8或更新版本。<br />
+Java官网：<a href="https://www.java.com/zh-CN/">https://www.java.com/zh-CN/</a> <br />
+win10-Java设置环境变量：<a href="https://www.runoob.com/w3cnote/windows10-java-setup.html">https://www.runoob.com/w3cnote/windows10-java-setup.html</a>
+</p>
+
+<h2><font color="green">开始</font></h2>
+
+<p>
+大多数关于Robocode的文档都是通过Julian（"Skilgannon"）主持的<a href="https://robowiki.net/wiki/Main_Page">RoboWiki</a>提供的。RoboWiki是大多数Robocode使用的人使用的Robocode开发的惊人信息来源，它还包含许多Robocode的官方文档。
+</p>
+
+<h2><font color="green">Robocode API</font></h2>
+
+<ul>
+    <li><a href="https://robocode.sourceforge.io/docs/robocode/"><font color="green">Java Robot API</font></a></li>
+    <li><a href="https://robocode.sourceforge.io/docs/robocode/index.html?robocode/control/package-summary.htm"><font color="green">Java Control API</font></a></li>
+</ul>
+
+<h2><font color="green">Robocode仓库</font></h2>
+
+<p>
+如果您想尝试Robocode附带的示例机器人以外的新机器人，则应访问包含大量机器人的<a href="https://literumble.appspot.com/"><font color="green">LiteRumble主页</font></a>。
+</p>
+
+<h2><font color="green">Python移植版</font></h2>
+
+<p>
+Github项目地址：<a href="https://github.com/turkishviking/Python-Robocode">https://github.com/turkishviking/Python-Robocode</a> <br />
+演示视频：<br /><img src="../public/img/video.gif" />&lt;/img&gt;
+
+
+</p>
+
+<h2><font color="green">参考资料</font></h2>
+
+<p><a href="https://robocode.sourceforge.io/docs/ReadMe.html">Robocode-发展史</a></p>
+
+<p><a href="https://robocode.sourceforge.io/">Robocode-主页</a></p>
+
+<p><a href="https://www.zhihu.com/topic/19795994/hot">Robocode-知乎</a></p>
+
+<p><a href="https://robowiki.net/wiki/Main_Page">Robocode-维基</a></p>
+:ET
